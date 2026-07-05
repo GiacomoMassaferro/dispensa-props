@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Studenti from './components/Studenti'
 import Open from './components/Open'
 import Admin from './components/Admin'
+import Pannell from './components/Panel'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <Studenti />
       <Open />
       <Admin />
+      <Pannell />
     </>
   )
 }
