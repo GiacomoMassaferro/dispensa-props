@@ -9,6 +9,7 @@ import Studenti from './components/Studenti'
 import Open from './components/Open'
 import Admin from './components/Admin'
 import Pannell from './components/Panel'
+import Corsi from './components/Corsi'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,10 @@ function App() {
       <Open />
       <Admin />
       <Pannell />
+      <div></div>
+      <div></div>
+      <div></div>
+      <Corsi />
     </>
   )
 }
